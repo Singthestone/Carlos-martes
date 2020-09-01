@@ -1,28 +1,84 @@
-nav {
+/* Cajas */
+
+body {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+}
+
+.principalbox {
+    width: 900px;
+    margin: 40px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
     align-items: flex-start;
 }
 
-.sq1,
-.sq2,
-.sq3 {
-    background: grey;
+body {
+    /*     padding: 20px 20px 0 20px;
+ */
 }
 
-.sq1,
-.sq3 {
-    width: 210px;
-    height: 210px;
-}
-
-.sq2 {
+.header_center {
     width: 440px;
     height: 440px;
+    background: #E16666;
 }
 
-figcaption {
-    margin-top: 10px;
+.header_lateral {
     width: 210px;
-    text-align: justify;
+    margin: 0px 20px;
+}
+
+.header_lateralSq {
+    width: 100%;
+    height: 210px;
+    background: #E16666;
+}
+
+.textLeft {
+    text-align: left;
+}
+
+.textRight {
+    text-align: right;
+}
+
+.textCenter {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.circles {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.line {
+    height: 20px;
+    background: #F60000;
+    margin-bottom: 20px;
+}
+
+main {
+    padding: 20px 20px 0 20px;
+}
+
+.circle {
+    height: 210px;
+    width: 210px;
+    border-radius: 50%;
+    background: #F60000;
+}
+
+.circles {
+    display: flex;
+    justify-content: space-between;
+}
+
+.circle2 {
+    background: brown;
 }

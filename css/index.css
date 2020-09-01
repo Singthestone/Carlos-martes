@@ -1,4 +1,28 @@
-/* *********************************** */
-/* *** Estilos SOLO para index.html *** */
-/* *********************************** */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
 
+.sq1,
+.sq2,
+.sq3 {
+    background: grey;
+}
+
+.sq1,
+.sq3 {
+    width: 210px;
+    height: 210px;
+}
+
+.sq2 {
+    width: 440px;
+    height: 440px;
+}
+
+figcaption {
+    margin-top: 10px;
+    width: 210px;
+    text-align: justify;
+}
